@@ -7,7 +7,7 @@
   - _Front-end_: React.js
   - _Back-end_: Node.js<br>
   
-**Design Tools:** Figma
+**Design Tools:** Figma<br>
 **Other Integrations:** Google Maps API (through Google Cloud)
 
 ### Outline/Sitemap
