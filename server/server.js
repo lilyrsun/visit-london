@@ -3,8 +3,13 @@ const cors = require('cors');
 const app = express();
 
 app.use(cors({
-    origin: 'https://visit-london.netlify.app/'
+    origin: '*'
 }));
+
+app.use((req, res, next) => {
+    req.headers['host'] = req.headers['x-forwarded-host'] || req.headers['host'];
+    next();
+});
 
 // Attractions endpoint
 app.get('/api/attractions', (req, res) => {
