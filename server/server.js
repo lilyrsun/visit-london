@@ -3,7 +3,7 @@ const cors = require('cors');
 const app = express();
 
 app.use(cors({
-    origin: 'https://your-frontend-netlify-url.netlify.app'
+    origin: 'https://visit-london.netlify.app/'
 }));
 
 // Attractions endpoint
