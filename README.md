@@ -4,8 +4,8 @@
 
 ### Software and Platforms Used:
 **Platform:**
-  - Front-end: React.js
-  - Back-end: Node.js
+  - _Front-end_: React.js
+  - _Back-end_: Node.js<br>
 **Design Tools:** Figma
 **Other Integrations:** Google Maps API (through Google Cloud)
 
