@@ -31,6 +31,7 @@ const Accommodations = () => {
             if (filter === "budget") return price < 200;
             if (filter === "bougie") return price >= 200 && price <= 500;
             if (filter === "royalty") return price > 500;
+            return true;
         });
 
     const handleOpenModal = (accommodation) => {
@@ -156,6 +157,7 @@ const Accommodations = () => {
 
                         {/* Embed Google Maps iframe */}
                         <iframe
+                            title="Accommodation Location"
                             width="100%"
                             height="200"
                             frameBorder="0"

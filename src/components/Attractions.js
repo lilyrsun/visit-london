@@ -124,6 +124,7 @@ const Attractions = () => {
 
                         {/* Embed Google Maps iframe */}
                         <iframe
+                            title="Attraction Location"
                             width="100%"
                             height="200"
                             frameBorder="0"

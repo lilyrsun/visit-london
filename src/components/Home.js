@@ -6,7 +6,7 @@ const Home = () => {
   return (
     <div className = "home">
     <section class = "logo-section">
-        <img src = "https://images.unsplash.com/photo-1512734099960-65a682cbfe2b?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" className = "site-picture"></img>
+        <img src = "https://images.unsplash.com/photo-1512734099960-65a682cbfe2b?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" className = "site-picture" alt = "London Logo"></img>
     </section>
         <div className = "homepage">
             <h1>WELCOME TO LONDON</h1>
@@ -16,14 +16,14 @@ const Home = () => {
             <h2>DISCOVER</h2>
             <div className = "discover-content">
                 <div className="discover-item">
-                <img src = "https://images.unsplash.com/photo-1564676487888-8be98153b4a6?q=80&w=1930&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"></img>
+                <img src = "https://images.unsplash.com/photo-1564676487888-8be98153b4a6?q=80&w=1930&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Attraction"></img>
                 <h3>Attractions</h3>
                 <p>Explore the top attractions in London.</p>
                 <Link to="/attractions" className="discover-link">Go to Attractions</Link>
                 </div>
 
                 <div className="discover-item">
-                <img src = "https://cache.marriott.com/content/dam/marriott-renditions/LONPR/lonpr-staircase-9026-hor-clsc.jpg?output-quality=70&interpolation=progressive-bilinear&downsize=1300px:*"></img>
+                <img src = "https://cache.marriott.com/content/dam/marriott-renditions/LONPR/lonpr-staircase-9026-hor-clsc.jpg?output-quality=70&interpolation=progressive-bilinear&downsize=1300px:*" alt="Lodging"></img>
                 <h3>Accommodations</h3>
                 <p>Find places to stay.</p>
                 <Link to="/accommodations" className="discover-link">Go to Accommodations</Link>
