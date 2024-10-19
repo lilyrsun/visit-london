@@ -9,7 +9,7 @@ const Accommodations = () => {
     const [placeDetails, setPlaceDetails] = useState(null); // Place details
 
     useEffect(() => {
-        fetch('http://localhost:5000/api/accommodations')
+        fetch('https://visit-london.onrender.com/api/accommodations')
             .then(res => res.json())
             .then(data => setAccommodations(data))
             .catch(err => console.error("Error fetching accommodations:", err));

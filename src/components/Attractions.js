@@ -9,7 +9,7 @@ const Attractions = () => {
     const [filter, setFilter] = useState("all"); // Filter state for free/not free attractions
 
     useEffect(() => {
-        fetch('http://localhost:5000/api/attractions')
+        fetch('https://visit-london.onrender.com/api/attractions')
             .then(res => res.json())
             .then(data => setAttractions(data))
             .catch(err => console.error("Error fetching attractions:", err));
