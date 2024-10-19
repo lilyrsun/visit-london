@@ -1,0 +1,158 @@
+.site-picture{
+    height: 450px;
+    width: 100%;
+    object-fit: cover;
+}
+/* Global styling for Didot and colors */
+h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+
+  h2, h3, p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+html{
+    background-color: #f9f9f9;
+}
+
+.site-logo{
+    width: 100%;
+    height: 100%;
+}
+  
+  /* Headings */
+  h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+  }
+  
+  h2 {
+    font-size: 2rem;
+    color: #cc3333; /* UK flag blue for section headings */
+    margin-bottom: 20px;
+  }
+  
+  h3 {
+    font-size: 1.5rem;
+    color: #000099;
+    margin-bottom: 10px;
+  }
+  
+  /* Paragraphs */
+  p {
+    font-size: 1rem;
+    color: #333;
+    margin-bottom: 15px;
+  }
+  
+  /* Section styles */
+  .discover-section {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .discover-content{
+    width: 100%;
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .homepage{
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 5%;
+    width: 70%;
+    padding-top: 40px;
+    text-align: center;
+    padding-bottom: 70px;
+  }
+  
+  .attractions{
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 5%;
+    width: 90%;
+    padding-top: 40px;
+    text-align: center;
+    padding-bottom: 70px;
+  }
+
+  .discover-item {
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 20px;
+    width: 43%;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease;
+  }
+  
+  /* Hover effect */
+  .discover-item:hover {
+    transform: scale(1.05);
+  }
+
+  .discover-item img{
+    width: 100%;
+    height: 60%;
+    object-fit: cover;
+    padding-bottom: 30px;
+  }
+  
+  /* Link styling */
+  .discover-link {
+    text-decoration: none;
+    color: #cc3333; /* Accent color for links */
+    font-size: 1.2rem;
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+  
+  .discover-link:hover {
+    color: #000099;
+  }
+  
+  /* Optional: Add animations */
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  /* Apply fade-in animation */
+  .home-container {
+    animation: fadeIn 1.5s ease-in-out;
+  }
+  
+  /* Button styling */
+.attraction-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #cc3333 !important;
+    color: #fff !important;
+    border-radius: 0px !important;
+    border: none;
+    cursor: pointer;
+}
+
+.attraction-button:hover {
+    background-color: #000099 !important;
+}
+
+.filter-buttons{
+    padding-bottom: 50px;
+    padding-top: 20px;
+}
+
+.attraction-image{
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
