@@ -1,6 +1,7 @@
 # Visit London - Travel Site
 
 **Link**: https://visit-london.netlify.app/
+Quick Note: I'm using Render to host the backend, but the free version of Render is a bit wonky. If any of the accommodations or attractions don't show up, you mught have to open the link a few times.
 
 ### Software and Platforms Used:
 **Platform:**
