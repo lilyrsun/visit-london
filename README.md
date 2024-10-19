@@ -6,6 +6,7 @@
 **Platform:**
   - _Front-end_: React.js
   - _Back-end_: Node.js<br>
+  
 **Design Tools:** Figma
 **Other Integrations:** Google Maps API (through Google Cloud)
 
