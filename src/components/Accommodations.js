@@ -138,7 +138,6 @@ const Accommodations = () => {
                         <Typography id="accommodation-modal-title" variant="h4">
                             {selectedAccommodation.name}
                         </Typography>
-                        <Typography>{selectedAccommodation.type}</Typography>
                         <Typography><strong>Price:</strong> {selectedAccommodation.price}</Typography>
                         <Typography><strong>Location:</strong> {selectedAccommodation.location}</Typography>
                         <Typography><strong>Website:</strong> 
